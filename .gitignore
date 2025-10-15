@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+.venv_*/
+env/
+venv/
+
+# VS Code settings for this subfolder (use root .vscode)
+.vscode/
+
+# Environment & local config
+.env
+
+# Data and tokens
+data/*.db
+data/li_tokens.json
+
+# Generated output
+out/
+logs/
+
+# OS junk
+*.DS_Store
+Thumbs.db
